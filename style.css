@@ -1,11 +1,12 @@
 body {
-    max-width: 1024px;
     width: 1020px;
     margin: 50px auto;
     padding: 80px;
     border: 1px solid black;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #444;
+    font-size: 18px;
 }
 
 .bcard {
@@ -17,4 +18,46 @@ body {
 .photo-profile {
     width: 250px;
     height: auto;
+}
+
+.contacts {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3e58a7
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: gold;
+}
+
+.cvcard {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #3e58a7;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list-fa-code {
+    list-style-type: none;
+}
+
+.fas, .fab {
+    margin-right: 10px;
+}
+
+.certification {
+    white-space: nowrap;
 }
