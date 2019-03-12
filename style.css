@@ -15,6 +15,29 @@ body {
     justify-content: space-between;
 }
 
+blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+  }
+  
+  blockquote::before{
+    content: "\201C"; 
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #3e58a7;
+    position: absolute;
+    left: 10px;
+    top:5px;
+  }
+  
+  blockquote::after{
+    content: "";
+  }
+
 .photo-profile {
     width: 250px;
     height: auto;
@@ -50,8 +73,13 @@ h2 {
     font-weight: bold;
 }
 
-.list-fa-code {
-    list-style-type: none;
+.courses__list, .certification__list, .languages__list {
+    padding-left: 20px; 
+}   
+
+.certification__list, .languages__list {
+    list-style: none;
+    line-height: 2; 
 }
 
 .fas, .fab {
@@ -61,3 +89,4 @@ h2 {
 .certification {
     white-space: nowrap;
 }
+
