@@ -1,6 +1,18 @@
 body {
     max-width: 1024px;
     width: 1020px;
-    margin: auto;
-    border: 1px solid black;
+    margin: 50px auto;
+    padding: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo-profile {
+    width: 250px;
+    height: auto;
 }
